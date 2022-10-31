@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL</title>
+    <link rel="stylesheet" href="./certificationproject.css">
+    <script
+    src="https://kit.fontawesome.com/6f5013579e.js"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+    <nav>
+        <div class="topbar">
+            <div class="left-div">
+                <img src="https://png.pngitem.com/pimgs/s/127-1270088_ipl-10-logo-png-vivo-ipl-2019-logo.png" id="logo" alt="logo"/> 
+            </div>
+            <div class="right-div">
+                <div id="search">
+                    <i class="fas fa-search" class="icon"></i>
+                    <input type="text" placeholder= "Search for the team" id="search-button" class="input">
+                    <div class="autocom-box"></div>
+                </div>
+                <div><a href="#"><button id="team" onclick="addteamclicked()">Add Team</button></a></div>
+                
+                    <div><a href="#"><button id="player" onclick="addPlayerClicked()">Add Player</button></a></div>
+                           
+            </div>
+        </div>
+    </nav>
+    <h1 id="heading3">TEAM PLAYERS</h1>
+    <div id="table-team"></div>
+
+    <div id="first-main">
+      <div id="teamdetails_container" class="team-class"></div>
+    </div>
+    <div id="footer">
+      <footer>
+      <div> <p><a href="">Follow us Twitter</a></p></div>
+      <div> <p><a href="">Watch On Prime Video</a></p></div>
+      <div> <p><a href="">Live Game</a></p></div>
+      
+      </footer>
+  </div>
+    <script src="./teamdetails.js"></script>
+  </body>
+</html>
